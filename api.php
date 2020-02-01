@@ -62,7 +62,7 @@
 			$msg = "Hello <b>$un</b> Your $description  And withdrawal id is $id";
 			
 			$token = 'token';
-			$chat_id = '-337238934';
+			$chat_id = '-xxxxxx';
 			$url = "https://api.telegram.org/bot$token/sendMessage?chat_id=$chat_id&text=$msg&parse_mode=html";
 			file_get_contents($url);
 
